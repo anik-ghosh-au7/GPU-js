@@ -1,0 +1,26 @@
+{
+  "name": "gpu-js",
+  "version": "1.0.0",
+  "description": "GPU",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anik-ghosh-au7/GPU-js.git"
+  },
+  "keywords": [
+    "GPU",
+    "resources"
+  ],
+  "author": "Anik Ghosh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anik-ghosh-au7/GPU-js/issues"
+  },
+  "homepage": "https://github.com/anik-ghosh-au7/GPU-js#readme",
+  "dependencies": {
+    "gpu.js": "^2.9.5"
+  }
+}
