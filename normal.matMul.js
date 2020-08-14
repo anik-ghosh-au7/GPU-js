@@ -11,7 +11,7 @@ const generateMatrices = () => {
     return matrices
 };
 
-function multiply(a, b) {
+function multiplyMatrix_normal(a, b) {
     var aNumRows = a.length, aNumCols = a[0].length,
         bNumRows = b.length, bNumCols = b[0].length,
         m = new Array(aNumRows);  // initialize array of rows
@@ -31,12 +31,12 @@ const matrices = generateMatrices();
 
 var start = new Date().getTime();
 
-let result = multiply(matrices[0], matrices[1]);
+let result = multiplyMatrix_normal(matrices[0], matrices[1]);
 
 var end = new Date().getTime();
 
 console.log(result[10][12]);
 
-console.log(`time taken for execution --> ${end - start} ms`); // 1206 ms
+console.log(`time taken for normal execution --> ${end - start} ms`); // 1206 ms
 
 

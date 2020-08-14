@@ -33,4 +33,4 @@ var end = new Date().getTime();
 // console.log(out[y][x]);  // --> Logs the element at the xth row and the yth column of the matrix
 console.log(out[10][12]);
 
-console.log(`time taken for execution --> ${end - start} ms`); // 133 ms
+console.log(`time taken for GPU execution --> ${end - start} ms`); // 133 ms
